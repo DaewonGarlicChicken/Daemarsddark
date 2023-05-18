@@ -41,6 +41,7 @@
 
   
 </style>
+
 <script>
 	var num = 1;
 	function changePic(idx) {
@@ -55,21 +56,24 @@
         imgTag.setAttribute("src", "images/day1/pic_" + num + ".gif");
 	}
 </script>
+
 </head>
+
 <body bgcolor="#000000">
 <!-- Save for Web Slices (main.png) -->
-
+<!-- 상단바 -->
 <header>
+<!-- 메인 -->
   <span style="float: left; margin-top: 15; margin-bottom: 15; margin-left: 39;">
 <a href="index.html">
-  <img src="images/go_main_test.gif" width="363" height="70" >
+  <img src="images/go_main_test.gif" style="max-width: 100%;" >
 </a>
-  
+<!-- 음악 -->
   </span>
   <span style="float: right; margin-top: 15; margin-bottom: 15; margin-right: 39;">
     <img src="images/play.gif" width="57" height="60" >
     <img src="images/ryoilki4.gif" width="13" height="70">
-
+<!-- 목록 -->
     <span class="dropdown">
       <button class="dropbtn"> 
         <span class="dropbtn_icon">
@@ -97,7 +101,7 @@
         </a>            
       </span>
   </span>
-
+<!-- 소개 -->
 <a href="about.html">
 <img src="images/about_test.gif" width="150" height="80">
 </a>
@@ -106,21 +110,22 @@
 
 <main> 
 	<center>
-  <img src="images/ryoiki1.gif" width="1842" height="80">
-  
+  <img src="images/ryoiki1.gif" style="max-width:100%; height:auto;">
+  <!-- 버튼좌 -->
 	<input type="image" src="images/button_l.gif" 
     onclick="changePic(0);"
-    style="margin-bottom:233px; margin-right:150; max-width: 9%; height: auto;">
-
+    style="margin-bottom: 10%; margin-right : 10%; max-width: 9%; height: auto;">
+<!-- 메인 보여주기 -->
 <span>
     <img src="images/day1/pic_1.gif" id="photo" alt="이미지"
     style= "max-width:30%; height:auto;">
 </span>
+<!-- 버튼우 -->
 	<input type="image" src="images/button_r.gif"  
     onclick="changePic(1);"
-    style="margin-bottom:233px; margin-left:150; max-width: 9%; height: auto;">
+    style=" margin-bottom: 10%; margin-left : 10%; max-width: 9%; height: auto;">
 
-	<img src="images/ryoiki2.gif" width="1842" height="50">
+	<img src="images/ryoiki2.gif" style="max-width:100%; height:auto;">
 	<span>
     <img src="images/day1/pic_1.gif" style="max-width:7%; height:auto;">
 		<img src="images/day1/pic_2.gif" style="max-width:7%; height:auto;">
@@ -130,10 +135,11 @@
     <img src="images/day1/pic_6.gif" style="max-width:7%; height:auto;">
     <img src="images/day1/pic_7.gif" style="max-width:7%; height:auto;">
     </span>
-	<img src="images/ryoilki3.gif" width="1842" height="27">
+	<img src="images/ryoilki3.gif" style="max-width:100%; height:auto;">
 
 	</center>
 </main> 
+<!-- 푸터 -->
 	<footer> <center>
 	<img src="images/main_17.gif" style="max-width:100%; height:auto;">
     </footer> </center>
